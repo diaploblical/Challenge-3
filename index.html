@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="/assets/prepr.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">My Challenges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Labs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Career Explorer</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="mt-4">
+      <div class="d-flex flex-md-row flex-column mb-4">
+        <div class="card mx-2 shadow container-fluid">       
+          <div class="card-body">
+            <h5 class="card-title fw-bold">My Progress</h5>
+            <div>
+              <p>You joined Preprlabs on Nov 13, 2023, start your Resource Module journey now!</p>
+            </div>
+            <div class="d-flex flex-column">
+              <img style="height: 20%; width: 20%;" class="mx-auto" src="/assets/my-progress-icon.png" />
+              <a href="#" style="width: 30%;" class="btn btn-success mt-5 mx-auto">Explore Modules</a>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-2 shadow container-fluid">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Continue Where You Left Off</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-flex flex-column">
+              <img style="height: 20%; width: 20%;" class="mx-auto" src="/assets/last-visited-icon.png" />
+              <a href="#" style="width: 30%;" class="btn btn-success mt-5 mx-auto">Explore more</a>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-2 shadow container-fluid">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Upcoming Challenge Deadlines</h5>
+            <div class="list-group list-group-flush">
+              <a href="#" class="list-group-item list-group-item-action fw-bold" aria-current="true">
+                Challenge 1</br><span class="fw-normal text-warning">Due December 1st at 11:59 PM</span></a>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action fw-bold" aria-current="true">
+                Challenge 2</br><span class="fw-normal text-warning">Due December 1st at 11:59 PM</span></a>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-md-row flex-column mb-4">
+        <div class="card mx-2 shadow container-fluid">       
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Leaderboard</h5>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Username</th>
+                  <th scope="col">Learning Points</th>
+                  <th scope="col">Learning Rank</th>
+                  <th scope="col">Achievements</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>M.Otto</td>
+                  <td>21</td>
+                  <td>1</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>M.Otto</td>
+                  <td>17</td>
+                  <td>2</td>
+                  <td>15</td>
+                </tr>               
+              </tbody>
+            </table>           
+          </div>
+        </div>
+        <div class="card mx-2 shadow container-fluid">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Latest Achievement</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-flex flex-column">
+              <img style="height: 20%; width: 20%;" class="mx-auto mt-4" src="/assets/login-system.png" />
+              <p class="text-center fw-bold mt-2">Participant</p>
+              <div class="d-flex flex-row justify-content-center">
+                <a href="#" style="width: 30%;" class="btn btn-primary mt-2 mx-auto">View Detail</a>
+                <a href="#" style="width: 30%;" class="btn btn-success mt-2 mx-auto">Share</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-md-row flex-column mb-4">
+        <div class="card mx-2 shadow container-fluid">
+          <div class="card-body">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">My Labs</a>
+                <p class="list-group-item list-group-item-action fw-bold" aria-current="true">
+                  Lab 1</br><span class="fw-normal">This is the lab 1</span></a>
+                </p>
+                <p class="list-group-item list-group-item-action fw-bold" aria-current="true">
+                  Lab 2</br><span class="fw-normal">This is the lab 2</span></a>
+                </p>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Invited</a>
+              </li>            
+            </ul>
+          </div>
+        </div>
+        <div class="card mx-2 shadow container-fluid">
+          <div class="card-body">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">My Challenges</a>
+                <h5 class="card-title fw-bold">Upcoming Challenge Deadlines</h5>
+                <div class="list-group list-group-flush">
+                  <p class="list-group-item list-group-item-action fw-bold" aria-current="true">
+                    Challenge 1</br><span class="fw-normal">This is the 1st challenge to be completed</span></a>
+                  </p>
+                  <p class="list-group-item list-group-item-action fw-bold" aria-current="true">
+                    Challenge 2</br><span class="fw-normal">This is the 2nd challenge to be completed</span></a>
+                  </p>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Invited</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Following</a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+        <div class="card mx-2 shadow container-fluid">
+          <div class="card-body">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Need to Assess</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Invited</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary" href="createProject.html">Create Project</a>
+              </li>          
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>
